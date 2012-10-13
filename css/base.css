@@ -1,0 +1,49 @@
+html{
+	background-color: #B3A383;
+	font-size: 1em;
+}
+h1{
+	font-size: 3em;
+}
+#wrap{
+	width: 960px;
+	margin: 0px auto;
+}
+#leftpage{
+	background: url('../images/left.png') no-repeat right top;
+	background-size: 480px 720px;
+	width: 480px;
+	height: 720px;
+	float:left;
+}
+#rightpage{
+	background: url('../images/right.png') no-repeat right top;
+	background-size: 480px 720px;
+	margin-left: -3px;
+	width: 480px;
+	height: 720px;
+	float:left;
+	position: relative;
+}
+a:link, a:visited{
+	color: #9B7832;
+	text-decoration: none;
+}
+li{
+	list-style-type: disc;
+}
+#footer{
+	position: absolute;
+	left: 8%;
+	top: 97%;
+}
+#menu{
+	position: relative;
+	left: 24%;
+	top: 5%;
+}
+a{
+	display:inline-block;
+	margin: 0 2%;
+	font-weight: bold;
+}

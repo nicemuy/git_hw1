@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>Questionnaire</title>
+	<link rel="stylesheet" href="css/reset.css" type="text/css"/>
+	<link rel="stylesheet" href="css/base.css" type="text/css"/>
+	<link rel="stylesheet" href="css/question.css" type="text/css" />
+</head>
+<body>
+	<div id="wrap">
+		<div id="leftpage">
+			<p>
+				설문조사에 필요한 말들을 오른쪽에 적어주세요.
+			</p>	
+		</div>
+		<div id="rightpage">
+			<div id="menu">
+				<a href="index.html">Profile</a>
+				<a href="index3.html">Residence</a>
+			</div>
+			<div id="content">
+				<form action="#" method="post" id="inform">
+					<table>
+						<tr>
+							<td>이름:</td>
+							<td><input type="text" name="name" id="name" /></td>
+						</tr>
+						<tr>
+							<td>나이:</td>
+							<td>
+								<input type="radio" name="age" id="age-1" value="10"/> 10대
+								<input type="radio" name="age" id="age-2" value="20"/> 20대
+								<input type="radio" name="age" id="age-3" value="30"/> 30대<br/>
+								<input type="radio" name="age" id="age-4" value="40"/> 40대
+								<input type="radio" name="age" id="age-5" value="50"/> 50대
+								<input type="radio" name="age" id="age-6" value="60"/> 60대
+							</td>
+						</tr>
+						<tr>
+							<td>취미:</td>
+							<td>
+								<input type="checkbox" name="hobby" id="hobby-1" value="게임"/> 게임
+								<input type="checkbox" name="hobby" id="hobby-2" value="독서"/> 독서
+								<input type="checkbox" name="hobby" id="hobby-3" value="인터넷"/> 인터넷<br/>
+								<input type="checkbox" name="hobby" id="hobby-4" value="영화"/> 영화								
+								<input type="checkbox" name="hobby" id="hobby-5" value="음악"/> 음악
+							</td>
+						</tr>
+						<tr>
+							<td>이 사이트에<br/>온 경유는?</td>
+							<td>
+								<select name="path" id="path">
+									<option value="친구">친구따라 강남왔다.</option>
+									<option value="검색">검색을 통해서</option>
+									<option value="홍보">홍보를 보고</option>
+									<option value="TV">TV를 보고</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>자기소개:</td>
+							<td><textarea name="profile" id="profile" cols="30" rows="10"></textarea></td>
+						</tr>
+					</table>
+					<div id="submit">
+						<input type="submit" value="보내기" />
+					</div>
+				</form>
+			</div>
+			<div id="footer">
+				Tel: 011-9654-0725&nbsp;&nbsp;E-mail: nicemuy@gmail.com
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+table{
+	width: 90%;
+	height: 100%;
+	text-align: center;
+}
+table *{
+	border: 1px dashed #9B7832;
+	border-collapse: collapse;
+	vertical-align: middle;
+}
+input[type='checkbox'],input[type='radio'],br{
+	border: none;	
+}
+input[type='text'],textarea,select{
+	border: 1px solid black;
+}
+tr td:first-child{
+	width: 35%;
+	height: 20%;
+}
+#submit{
+	position: relative;
+	left: 42%;
+}
+#content{
+	position: relative;
+	top: 27%;
+	left: 3%;
+}
+#leftpage p{
+	position: relative;
+	top: 45%;
+	left: 17%;
+}
+#menu{
+	left: 32%;
+}

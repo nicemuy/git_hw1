@@ -1,0 +1,28 @@
+#leftpage img{
+	width: 300px;
+	height: 200px;
+	display: block;
+	position: relative;
+	left: 22%;
+	top: 37%;
+}
+#leftpage h1{
+	position: relative;
+	left:17%;
+	top:40%;
+}
+#content{
+	position: relative;
+	width: 90%;
+	left: 7%;
+	top: 20%;
+}
+#content h1{
+	margin-bottom: 5%;
+}
+#content ul,p{
+	line-height: 1.4em;
+}
+#content>p{
+	margin-top: 5%;
+}
